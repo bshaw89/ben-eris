@@ -1,7 +1,4 @@
-import { siSpotify } from 'simple-icons';
-import { siInstagram } from 'simple-icons';
-import { siApplemusic } from 'simple-icons';
-import { siYoutube } from 'simple-icons';
+import { siBandcamp, siSpotify, siInstagram, siApplemusic, siYoutube } from 'simple-icons';
 
 export default function GetIcon(slug) {
     let icon = '';
@@ -13,6 +10,8 @@ export default function GetIcon(slug) {
         icon = siInstagram;
     else if (slug == 'youtube')
         icon = siYoutube;
+    else if (slug == 'bandcamp')
+        icon = siBandcamp;
 
     return icon.svg;
 }

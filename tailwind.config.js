@@ -6,9 +6,19 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Work Sans", "sans-serif"],
+      sans: ["Vecna", "sans-serif"],
     },
-    extend: {},
+    fontWeight: {
+      bold: 700
+    },
+    backgroundSize: {
+      '75%': '90%'
+    },
+    extend: {
+      backgroundImage: {
+        'album-cover': "url('https://i.imgur.com/9fVipWG.jpg')"
+      }
+    },
   },
   plugins: [],
 }
