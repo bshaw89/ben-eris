@@ -13,7 +13,7 @@ export const Navbar = () => {
         <Link href='/lyrics'>
             <h1 className="text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:opacity-50" style={{color: `${config.textColor}`}}>{config.lyrics}</h1>
         </Link>
-        <Link href='/mailingForm'>
+        <Link href='/mailingList'>
             <h1 className="text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:opacity-50" style={{color: `${config.textColor}`}}>{config.mailingList}</h1>
         </Link>
         <Link href='/contact'>

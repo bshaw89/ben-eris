@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import InputField from "./InputField";
+import config from "../config"
 
 const CustomForm = ({ status, message, onValidated }) => {
 
@@ -67,6 +68,12 @@ const CustomForm = ({ status, message, onValidated }) => {
 
             </div>
         ) : null}
+       <div className='flex justify-center'>
+
+        <button class="flex justify-center bg-gray-700/90 border-2 border-purple-700/90 hover:bg-gray-600/90 hover:border-purple-400 hover:text-purple-400/90 text-purple-500/90 font-bold py-2 px-4 rounded-full" type='submit'>
+          subscribe
+        </button>
+       </div>
       </form>
     );
 };
