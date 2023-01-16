@@ -3,10 +3,14 @@ import IconBar from "../components/IconBar"
 import { config } from "../config"
 import Head from "next/head"
 import { Navbar } from "../components/Navbar"
-import Layout from "../components/Layout"
+import TransitionWrapper from "../components/TransitionWrapper"
+import { AnimatePresence, motion } from "framer-motion"
 
 export default function Home() {
+  
   return (
+    <div className="bg-album-cover bg-right" style={{backgroundSize: '250%'}}>
+    <TransitionWrapper>
     <div className="flex flex-col justify-center items-center w-screen h-screen p-6 bg-auto bg-album-cover bg-right" style={{backgroundColor: `${config.bgColor}`, backgroundSize: '250%'}}>
       <Head>
         <title>{config.name}</title>
@@ -32,6 +36,8 @@ export default function Home() {
       </div>
         <Navbar />
       
+    </div>
+    </TransitionWrapper>
     </div>
   )
 }

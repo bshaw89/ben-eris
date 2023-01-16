@@ -2,10 +2,12 @@ import React, {useState, useEffect} from 'react';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import InputField from "./InputField";
 import config from "../config"
+import { motion } from "framer-motion"
 
 const CustomForm = ({ status, message, onValidated }) => {
 
     const [email, setEmail] = useState('');
+
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -29,7 +31,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         <h3 className="mc__title">
             {status === "success" 
                 ? "Success!" 
-                : "Join our email list for future updates."
+                : ""
             }
         </h3>
 
@@ -70,9 +72,14 @@ const CustomForm = ({ status, message, onValidated }) => {
         ) : null}
        <div className='flex justify-center'>
 
-        <button class="flex justify-center bg-gray-700/90 border-2 border-purple-700/90 hover:bg-gray-600/90 hover:border-purple-400 hover:text-purple-400/90 text-purple-500/90 font-bold py-2 px-4 rounded-full" type='submit'>
+        <motion.button 
+        whileHover={{scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        class="flex justify-center bg-gray-700/90 border-2 border-warlock-500/90 hover:bg-gray-600/90 hover:border-warlock-400 hover:text-warlock-400/90 text-warlock-500/90 font-bold text-lg py-2 px-4 rounded-full" type='submit'
+        >
           subscribe
-        </button>
+        </motion.button>
+
        </div>
       </form>
     );
