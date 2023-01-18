@@ -7,6 +7,7 @@ import TransitionWrapper from "../components/TransitionWrapper"
 export default function Lyrics() {
     return (
     <div className="bg-album-cover bg-right-top" style={{backgroundSize: '450%'}}>
+        <div className="bg-black bg-opacity-50">
         <TransitionWrapper>
     <div className="flex flex-col justify-center items-center w-screen h-screen p-6 bg-right-top bg-album-cover" style={{backgroundColor: `${config.bgColor}`, backgroundSize: '450%'}}>
         <div className="flex-grow flex-col justify-center align-center w-full scroll-smooth overflow-y-scroll lg:w-1/2 md:w-1/3 h-[300%] lg:h-1/2 md:h-1/2 items-center">
@@ -56,6 +57,7 @@ export default function Lyrics() {
         <Navbar />
     </div>
     </TransitionWrapper>
+    </div>
     </div>
     )
 }

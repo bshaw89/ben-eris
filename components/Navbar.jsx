@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Link from 'next/link'
 import { config } from "../config"
+import { motion } from 'framer-motion';
 
 export const Navbar = () => {
     
@@ -8,16 +9,32 @@ export const Navbar = () => {
         <>
         <div className="flex flex-wrap w-full h-1/4 gap-5 justify-center items-end">
         <Link href='/'>
-            <h1 className="hover:animate-spin text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:text-warlock-400/90 hover:text-shadow-lg hover:shadow-warlock-400 text-white">{config.home}</h1>
+            <motion.button
+            whileHover={{scale: 1.1, rotate: 360, transition: { duration: 0.8, type: "spring", stiffness: 50, mass: 2 } }}
+            whileTap={{ scale: 0.9 }}
+            class="text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:text-warlock-400/90 hover:text-shadow-lg hover:shadow-warlock-400 text-white">{config.home}
+            </motion.button>
         </Link>
         <Link href='/lyrics'>
-            <h1 className="hover:animate-spin text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:text-warlock-400/90 hover:text-shadow-lg hover:shadow-warlock-400 text-white">{config.lyrics}</h1>
+            <motion.button
+            whileHover={{scale: 1.1, rotate: 360, transition: { duration: 0.8, type: "spring", stiffness: 50, mass: 2 } }}
+            whileTap={{ scale: 0.9 }}
+            class="text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:text-warlock-400/90 hover:text-shadow-lg hover:shadow-warlock-400 text-white">{config.lyrics}
+            </motion.button>
         </Link>
         <Link href='/mailingList'>
-            <h1 className="hover:animate-spin text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:text-warlock-400/90 hover:text-shadow-lg hover:shadow-warlock-400 text-white">{config.mailingList}</h1>
+            <motion.button
+            whileHover={{scale: 1.1, rotate: 360, transition: { duration: 0.8, type: "spring", stiffness: 35, mass: 2 } }}
+            whileTap={{ scale: 0.9 }}
+             className="text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:text-warlock-400/90 hover:text-shadow-lg hover:shadow-warlock-400 text-white">{config.mailingList}
+             </motion.button>
         </Link>
         <Link href='/contact'>
-            <h1 className="hover:animate-spin text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:text-warlock-400/90 hover:text-shadow-lg hover:shadow-warlock-400 text-white">{config.contact}</h1>
+            <motion.button
+            whileHover={{scale: 1.1, rotate: 360, transition: { duration: 0.8, type: "spring", stiffness: 40, mass: 2 } }}
+            whileTap={{ scale: 0.9 }}
+            className="text-center text-xl font-bold mt-1 mb-1 opacity:50 hover:text-warlock-400/90 hover:text-shadow-lg hover:shadow-warlock-400 text-white">{config.contact}
+            </motion.button>
         </Link>
         </div>
         </>
