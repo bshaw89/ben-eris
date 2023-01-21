@@ -19,7 +19,7 @@ const variants = {
 }
 
 const TransitionWrapper = ({ children, title, description }) => (
-    // <div>
+    <>
     <motion.main
             initial="hidden"
             animate="animate"
@@ -29,7 +29,8 @@ const TransitionWrapper = ({ children, title, description }) => (
         >
             {children}
         </motion.main>
-    // </div>
+        <Navbar />
+    </>
 )
 
 export default TransitionWrapper

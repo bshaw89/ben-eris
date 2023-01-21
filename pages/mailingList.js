@@ -21,7 +21,6 @@ export default function MailingList() {
         <div>
 
         </div>
-        <Navbar />
     </div>
     </TransitionWrapper>
     </div>

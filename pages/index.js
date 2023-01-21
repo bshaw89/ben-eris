@@ -44,8 +44,6 @@ export default function Home() {
         </div>
           
       </div>
-        <Navbar />
-      
     </div>
     </TransitionWrapper>
     </div>

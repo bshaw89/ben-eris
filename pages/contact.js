@@ -16,7 +16,6 @@ export default function Contact() {
         <div>
 
         </div>
-        <Navbar />
     </div>
     </TransitionWrapper>
     </div>
