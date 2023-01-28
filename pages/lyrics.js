@@ -19,13 +19,13 @@ export default function Lyrics() {
                     <br></br> :
                     <p className="">{line}</p>)
                 ))}
-                <motion.div
+                {/* <motion.div
                 initial={{ opacity: 0}}
                 whileInView={{ opacity: 1}}
                 viewport={{ once: true, amount: 0.8 }}
-                >
+                > */}
             <h1 className="animate-pulse text-center text-2xl font-bold mt-1 mb-1 text-warlock-400/90 text-shadow-lg shadow-warlock-400">Sooner or Later</h1>
-            </motion.div>
+            {/* </motion.div> */}
             {config.soonerOrLater.map(line => (
                     (line === 'break' ?
                     <br></br> :

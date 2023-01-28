@@ -1,10 +1,12 @@
 export const config = {
-  avatar: 'https://i.imgur.com/ih0ORWA.jpg',
+  avatar: `url(/avatar.JPG)`,
   bgColor: '#18181b',
   textColor: '#d4d4d8',
   iconColor: '#d4d4d8',
   emailColor: '#7b68ee',
   textOpacity: '50%',
+  title: 'Ben Eris | Music',
+  descriptio: 'An official resource for Ben Eris music, lyrics, news, and contact.',
   firstName: 'BEN',
   lastName: 'ERIS',
   home: 'Music',
@@ -14,6 +16,7 @@ export const config = {
   emailFirst: 'benerismusic',
   emailAt: '@',
   emailSecond: 'gmail.com',
+  siteURL: 'https://beneris.com',
   description: 'Looks You Can\'t Hide EP Out Now',
   links: [
     {

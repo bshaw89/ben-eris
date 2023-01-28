@@ -9,6 +9,7 @@ const MailchimpFormContainer = props => {
         <div className="mc__form-container">
             <MailchimpSubscribe 
                 url={postUrl}
+                // url={"testing"}
                 render={({ subscribe, status, message }) => (
                     <CustomForm
                         status={status} 

@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'album-cover': "url('https://i.imgur.com/9fVipWG.jpg')"
+        'album-cover': `url('/looks-you-cant-hide.jpg')`
       },
       colors: {
         warlock: {
