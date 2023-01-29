@@ -9,7 +9,7 @@ export default function Contact({ configData }) {
     <div className="bg-black bg-opacity-50" style={{background: `${configData.backgroundImage}`, backgroundSize: '250%'}}>
         <TransitionWrapper>
     <div className="flex flex-col justify-center items-center w-screen h-screen p-6 bg-auto" style={{background: `${configData.backgroundImage}`, backgroundSize: '250%'}}>
-        <div className="flex flex-row justify-center align-center w-full lg:w-1/2 md:w-1/3 h-[300%] lg:h-1/2 md:h-1/2 items-center">
+        <div className="flex flex-row justify-center align-center w-full h-[300%] items-center">
         <Image src="/static/images/ben-eris-contact-card.png" alt="The email address of Ben Eris." width={500} height={500}></Image>
         </div>
         <div>
