@@ -8,12 +8,12 @@ import { AnimatePresence, easeInOut, motion } from "framer-motion"
 
 export default function Home({ configData }) {
   return (
-    <div className="bg-album-cover bg-right" style={{backgroundSize: '250%'}}>
+    <div className="bg-album-cover bg-right" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right", backgroundSize: '250%'}}>
       <div className="bg-black bg-opacity-50">
         {/* <div className="bg-black opacity-50"> */}
 
     <TransitionWrapper>
-    <div className="flex flex-col justify-center items-center w-screen h-screen p-6 bg-auto bg-album-cover bg-right" style={{backgroundColor: `${configData.bgColor}`, backgroundSize: '250%'}}>
+    <div className="flex flex-col justify-center items-center w-screen h-screen p-6 bg-auto" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right", backgroundColor: `${configData.bgColor}`, backgroundSize: '250%'}}>
       <Head>
         <title>{configData.title}</title>
         <meta name="description" content={configData.description} />
