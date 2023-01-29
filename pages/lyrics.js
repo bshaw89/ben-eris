@@ -28,32 +28,32 @@ export default function Lyrics() {
             {/* </motion.div> */}
             {config.soonerOrLater.map(line => (
                     (line === 'break' ?
-                    <br></br> :
-                    <p>{line}</p>)
+                    <br key={line}></br> :
+                    <p key={line}>{line}</p>)
                 ))}
                 <h1 className="animate-pulse text-center text-2xl font-bold mt-1 mb-1 text-warlock-400/90 text-shadow-lg shadow-warlock-400">Your Room</h1>
             {config.yourRoom.map(line => (
                     (line === 'break' ?
-                    <br></br> :
-                    <p>{line}</p>)
+                    <br key={line}></br> :
+                    <p key={line}>{line}</p>)
                 ))}
                    <h1 className="animate-pulse text-center text-2xl font-bold mt-1 mb-1 text-warlock-400/90 text-shadow-lg shadow-warlock-400">Two Hearts</h1>
             {config.twoHearts.map(line => (
                     (line === 'break' ?
-                    <br></br> :
-                    <p>{line}</p>)
+                    <br key={line}></br> :
+                    <p key={line}>{line}</p>)
                 ))}
                 <h1 className="animate-pulse text-center text-2xl font-bold mt-1 mb-1 text-warlock-400/90 text-shadow-lg shadow-warlock-400">Say It Again</h1>
             {config.sayItAgain.map(line => (
                     (line === 'break' ?
-                    <br></br> :
-                    <p>{line}</p>)
+                    <br key={line}></br> :
+                    <p key={line}>{line}</p>)
                 ))}
                 <h1 className="animate-pulse text-center text-2xl font-bold mt-1 mb-1 text-warlock-400/90 text-shadow-lg shadow-warlock-400">Better in Writing</h1>
             {config.betterInWriting.map(line => (
                     (line === 'break' ?
-                    <br></br> :
-                    <p>{line}</p>)
+                    <br key={line}></br> :
+                    <p key={line}>{line}</p>)
                 ))}
                 
         </div>

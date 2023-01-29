@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import Layout from '../components/layout'
 import { AnimatePresence, motion, AnimateSharedLayout } from 'framer-motion'
 import { useState } from 'react'
+import Head from "next/head"
 
 export default function MyApp({ Component, pageProps, router }) {
 
