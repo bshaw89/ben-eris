@@ -6,7 +6,7 @@ import { config } from '../config'
 
 export default function MyApp({ Component, pageProps, router }) {
 
-  const url = `https://localhost:3000${router.route}`
+  const url = `https://www.benerismusic.com/${router.route}`
 
 
   return (
@@ -19,7 +19,7 @@ export default function MyApp({ Component, pageProps, router }) {
         <title>Ben Eris | Music</title>
         <meta name="description" content="An official resource for Ben Eris music, lyrics, news, and contact." />
         <meta name="og:url" content="url" />
-        <meta name="og:image" content={`url(/ben-eris-og-final.png)`} />
+        <meta name="og:image" content={`url(/static/images/ben-eris-og-final.png)`} />
         <meta name="og:type" content="website" />
       </Head>
       {<Component {...pageProps} key={url} layoutId={url} />}
