@@ -10,7 +10,7 @@ export default function Lyrics({ configData }) {
         <div className="bg-black bg-opacity-50">
         <TransitionWrapper>
     <div className="flex flex-col justify-center items-center w-screen h-screen p-6 bg-right-top" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right top", backgroundColor: `${configData.bgColor}`, backgroundSize: '450%'}}>
-        <div className="flex-grow flex-col justify-center align-center w-full scroll-smooth h-[300%] items-center">
+        <div className="flex-grow flex-col justify-center align-center w-full scroll-smooth h-[80%] items-center">
             <div className="h-5/6 overflow-y-scroll scroll-smooth text-center text-white outline-2 border-warlock-400/20 rounded-b-lg rounded-t-lg">
                 
             <h1 className="animate-pulse text-center text-3xl font-bold mt-1 mb-1 text-warlock-400/90 text-shadow-lg shadow-warlock-400">Shy Guy</h1>
