@@ -1,5 +1,6 @@
 export const config = {
-  avatar: `url(/avatar.JPG)`,
+  avatar: `url(/ben-eris-avatar.JPG)`,
+  ogBenEris: `url(/ben-eris-og-final.png)`,
   bgColor: '#18181b',
   textColor: '#d4d4d8',
   iconColor: '#d4d4d8',
@@ -13,9 +14,6 @@ export const config = {
   contact: 'Contact',
   lyrics: 'Lyrics',
   mailingList: 'Mailing List',
-  emailFirst: 'benerismusic',
-  emailAt: '@',
-  emailSecond: 'gmail.com',
   siteURL: 'https://beneris.com',
   description: 'Looks You Can\'t Hide EP Out Now',
   links: [

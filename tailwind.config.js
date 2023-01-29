@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'album-cover': `url('/looks-you-cant-hide.jpg')`
+        'album-cover': `url('/ben-eris-looks-you-cant-hide.jpg')`
       },
       colors: {
         warlock: {
