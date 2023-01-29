@@ -7,7 +7,7 @@ export const config = {
   emailColor: '#7b68ee',
   textOpacity: '50%',
   title: 'Ben Eris | Music',
-  descriptio: 'An official resource for Ben Eris music, lyrics, news, and contact.',
+  description: 'An official resource for Ben Eris music, lyrics, news, and contact.',
   firstName: 'BEN',
   lastName: 'ERIS',
   home: 'Music',
