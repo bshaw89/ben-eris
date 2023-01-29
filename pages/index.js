@@ -18,7 +18,7 @@ export default function Home({ configData }) {
         <title>{configData.title}</title>
         <meta name="description" content={configData.description} />
         <meta name="og:url" content={configData.siteURL} />
-        <meta name="og:image" content={configData.ogBenEris} />
+        <meta name="og:image" content="https://i.imgur.com/uWPm4O6.png" />
         <meta name="og:type" content="website" />
 
         <link rel="icon" href={(process.env.NEXT_PUBLIC_CLOUDIMG_TOKEN) ? `https://${process.env.NEXT_PUBLIC_CLOUDIMG_TOKEN}.cloudimg.io/${configData.avatar}?radius=500` : `${configData.avatar}`} />
