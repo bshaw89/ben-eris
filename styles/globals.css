@@ -1,5 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/b1bb4dc01f5f1570e286780d9a082581?family=Vecna);
-@import url(//db.onlinewebfonts.com/c/b6d1d799bfc7a41478258b851b6de981?family=Vecna);
+@import url('https://fonts.cdnfonts.com/css/vecna');
+/* @import url(//db.onlinewebfonts.com/c/b6d1d799bfc7a41478258b851b6de981?family=Vecna); */
 
 @tailwind base;
 @tailwind components;
