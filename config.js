@@ -1,7 +1,7 @@
 export const config = {
-  avatar: `url(/ben-eris-avatar.JPG)`,
-  ogBenEris: `url(/ben-eris-og-final.png)`,
-  backgroundImage: `url('/ben-eris-looks-you-cant-hide.jpg')`,
+  avatar: '/static/images/ben-eris-avatar.jpg',
+  ogBenEris: '/static/images/ben-eris-og-final.png',
+  backgroundImage: '/static/images/ben-eris-looks-you-cant-hide.jpg',
   bgColor: '#18181b',
   textColor: '#d4d4d8',
   iconColor: '#d4d4d8',
