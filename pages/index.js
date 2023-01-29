@@ -8,7 +8,7 @@ import { AnimatePresence, easeInOut, motion } from "framer-motion"
 
 export default function Home({ configData }) {
   return (
-    <div className="bg-album-cover bg-right" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right", backgroundSize: '250%'}}>
+    <div className="bg-right" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right", backgroundSize: '250%'}}>
       <div className="bg-black bg-opacity-50">
         {/* <div className="bg-black opacity-50"> */}
 

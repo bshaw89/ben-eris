@@ -6,10 +6,10 @@ import TransitionWrapper from "../components/TransitionWrapper"
 
 export default function Lyrics({ configData }) {
     return (
-    <div className="bg-album-cover bg-right-top" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right top", backgroundSize: '450%'}}>
+    <div className="bg-right-top" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right top", backgroundSize: '450%'}}>
         <div className="bg-black bg-opacity-50">
         <TransitionWrapper>
-    <div className="flex flex-col justify-center items-center w-screen h-screen p-6 bg-right-top bg-album-cover" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right top", backgroundColor: `${configData.bgColor}`, backgroundSize: '450%'}}>
+    <div className="flex flex-col justify-center items-center w-screen h-screen p-6 bg-right-top" style={{background: `${configData.backgroundImage}`, backgroundPosition: "right top", backgroundColor: `${configData.bgColor}`, backgroundSize: '450%'}}>
         <div className="flex-grow flex-col justify-center align-center w-full scroll-smooth overflow-y-scroll lg:w-1/2 md:w-1/3 h-[300%] lg:h-1/2 md:h-1/2 items-center">
             <div className="h-5/6 overflow-y-scroll scroll-smooth text-center text-white outline-2 border-warlock-400/20 rounded-b-lg rounded-t-lg">
                 
