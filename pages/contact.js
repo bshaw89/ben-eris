@@ -1,6 +1,7 @@
 import { config } from "../config"
 import { Navbar } from "../components/Navbar"
 import TransitionWrapper from "../components/TransitionWrapper"
+import Image from "next/image"
 
 export default function Contact() {
     return (

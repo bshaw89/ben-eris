@@ -16,8 +16,8 @@ export default function Lyrics() {
             <h1 className="animate-pulse text-center text-3xl font-bold mt-1 mb-1 text-warlock-400/90 text-shadow-lg shadow-warlock-400">Shy Guy</h1>
                 {config.shyGuy.map(line => (
                     (line === 'break' ?
-                    <br></br> :
-                    <p className="">{line}</p>)
+                    <br key={line}></br> :
+                    <p key={line}>{line}</p>)
                 ))}
                 {/* <motion.div
                 initial={{ opacity: 0}}
